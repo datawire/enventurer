@@ -1,0 +1,11 @@
+[Unit]
+Description=Inspects the environment to create environment variables
+Documentation=https://github.com/datawire/enventurer
+After=network.target
+
+[Service]
+ExecStart=python /opt/datawire/enventurer.py
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+# --- Python ---
+venv
+
+# --- IntelliJ ---
+.idea
+
+# --- Linux and Friends ---
+.directory
+
+# --- OS X / macOS ---
+.DS_Store
